@@ -1,0 +1,12 @@
+Source: ros-rolling-polygon-demos
+Section: misc
+Priority: optional
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-angles, ros-rolling-color-util, ros-rolling-geometry-msgs, ros-rolling-polygon-msgs, ros-rolling-polygon-rviz-plugins, ros-rolling-polygon-utils, ros-rolling-rclcpp, ros-rolling-rviz-common, ros-rolling-rviz-default-plugins, ros-rolling-rviz2, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-polygon-demos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-angles, ros-rolling-color-util, ros-rolling-geometry-msgs, ros-rolling-polygon-msgs, ros-rolling-polygon-rviz-plugins, ros-rolling-polygon-utils, ros-rolling-rclcpp, ros-rolling-rviz-common, ros-rolling-rviz-default-plugins, ros-rolling-rviz2, ros-rolling-ros-workspace
+Description: Demo of polygon_rviz_plugins
