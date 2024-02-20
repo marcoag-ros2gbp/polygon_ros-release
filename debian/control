@@ -1,0 +1,12 @@
+Source: ros-rolling-polygon-utils
+Section: misc
+Priority: optional
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-geometry-msgs, ros-rolling-polygon-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-polygon-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-geometry-msgs, ros-rolling-polygon-msgs, ros-rolling-ros-workspace
+Description: Utilities for working with polygons, including triangulation
